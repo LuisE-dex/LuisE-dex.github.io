@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Ernesto Toledo | Portfolio Futurista</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <canvas id="cyber-bg"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">&lt;LuisE-Dex /&gt;</div>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#hero" class="active">Inicio</a></li>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#skills">Tecnologías</a></li>
+            <li><a href="#achievements">Logros</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <p class="glitch" data-text="BIENVENIDO A MI INTERFAZ">BIENVENIDO A MI INTERFAZ</p>
+            <h1>Hola, soy <span class="neon-text">Luis Ernesto</span></h1>
+            <h2 class="typing-text">Matemático Competitivo | Entusiasta del Software</h2>
+            <p class="hero-desc">Aplicando lógica pura y algoritmos avanzados para resolver problemas complejos y construir el software del futuro.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Conectar <i class="fa-solid fa-terminal"></i></a>
+                <a href="#achievements" class="btn btn-secondary">Ver Logros</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-title">&lt; 01. Sobre Mí /&gt;</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>Perfil de Operador</h3>
+                <p>Graduado de bachillerato en Cuba, ex-miembro de la <strong>Preselección Nacional de Matemática</strong> (Ciclos Olímpicos 2022-2023 y 2023-2024). Mi enfoque se centra en fusionar las estructuras lógicas abstractas con el desarrollo de software moderno y la Inteligencia Artificial.</p>
+                <div class="soft-skills">
+                    <span class="skill-tag">Proactivo</span>
+                    <span class="skill-tag">Líder de Equipo</span>
+                    <span class="skill-tag">Adaptable</span>
+                    <span class="skill-tag">Problem Solver</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">&lt; 02. Núcleo Tecnológico /&gt;</h2>
+        <div class="skills-container">
+            <div class="skills-grid">
+                <img src="https://skillicons.dev/icons?i=html,css,js,ts,tailwind,react,c,cpp,cs,java,python&perline=6" alt="Frontend & Heavy Logic">
+                <img src="https://skillicons.dev/icons?i=php,nodejs,express,mysql,postgres,mongodb,git,docker,linux&perline=5" alt="Backend & Tools">
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <h2 class="section-title">&lt; 03. Registro de Victorias /&gt;</h2>
+        <div class="timeline">
+            
+            <div class="timeline-item gold-tier">
+                <div class="timeline-badge gold"><i class="fa-solid fa-trophy"></i></div>
+                <div class="timeline-content">
+                    <span class="badge-tag">Oro Perfecto</span>
+                    <h3>XI Copa Abel Santamaría (UCLV, 2025)</h3>
+                    <p>Puntuación perfecta individual en el prestigioso evento universitario.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item gold-tier">
+                <div class="timeline-badge gold"><i class="fa-solid fa-award"></i></div>
+                <div class="timeline-content">
+                    <span class="badge-tag">Oro Consecutivo</span>
+                    <h3>IX y X Olimpiada Luis A. Campistrous Pérez (2024, 2025)</h3>
+                    <p>Máximo galardón en dos ediciones seguidas de la olimpiada.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item gold-tier">
+                <div class="timeline-badge gold"><i class="fa-solid fa-medal"></i></div>
+                <div class="timeline-content">
+                    <span class="badge-tag">Oro Regional</span>
+                    <h3>Copa Regional (2023, 2024)</h3>
+                    <p>Victorias en los exámenes individuales y pruebas contra el reloj.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item gold-tier">
+                <div class="timeline-badge gold"><i class="fa-solid fa-star"></i></div>
+                <div class="timeline-content">
+                    <span class="badge-tag">Oro Provincial</span>
+                    <h3>Competencias Provinciales e IPVCE (2022 - 2025)</h3>
+                    <p>Primer lugar provincial (2024, 2025) y campeón consecutivo del IPVCE Eusebio Olivera Rodríguez (2022, 2023, 2024).</p>
+                </div>
+            </div>
+
+            <div class="timeline-item silver-tier">
+                <div class="timeline-badge silver"><i class="fa-solid fa-medal"></i></div>
+                <div class="timeline-content">
+                    <span class="badge-tag">Plata Nacional</span>
+                    <h3>Concurso Nacional de Matemática (2024)</h3>
+                    <p>Subcampeón nacional en la máxima cita del país. También sumé Plata Provincial en la edición de 2023.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item bronze-tier">
+                <div class="timeline-badge bronze"><i class="fa-solid fa-medal"></i></div>
+                <div class="timeline-content">
+                    <span class="badge-tag">Bronce Nacional</span>
+                    <h3>Concursos Nacionales y Olimpiadas (2023, 2025)</h3>
+                    <p>Medallas de Bronce Nacional en los años 2023 y 2025. Bronce en la VIII Olimpiada Luis A. Campistrous (2023).</p>
+                </div>
+            </div>
+
+            <div class="timeline-item cyber-tier">
+                <div class="timeline-badge cyber"><i class="fa-solid fa-brain"></i></div>
+                <div class="timeline-content">
+                    <span class="badge-tag">Honorífico</span>
+                    <h3>Involucramientos Especiales & Distinciones</h3>
+                    <p>• Miembro de la <strong>Preselección Nacional Olímpica</strong>.<br>
+                       • Participante en la <strong>Olimpiada Iraní de Geometría (IGO)</strong>.<br>
+                       • Reconocimiento <strong>"Ciencia sin Límites"</strong> (2025).<br>
+                       • Entrenador y Coach activo en <em>SSpiritMat</em> (2023 - 2025).<br>
+                       • Premio a la mejor respuesta individual en la Olimpiada de la Universidad de Sancti-Spíritus.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="contact-card">
+            <h2 class="neon-text">Establecer Conexión</h2>
+            <p>¿Tienes un problema algorítmico complejo, un puzzle lógico o un proyecto de software? Mi terminal está lista.</p>
+            <div class="social-links">
+                <a href="mailto:luist060907@gmail.com" title="Gmail"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://t.me/luisgrrr69" target="_blank" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://github.com/LuisE-dex" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://discord.com/users/luise_dev_01648" target="_blank" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                <a href="mailto:luisernesto.toledoalvarez@tutamail.com" title="TutaMail"><i class="fa-solid fa-shield-halved"></i></a>
+            </div>
+            <div class="terminal-footer">
+                <p>luisernesto@node:~# <span class="blink">_</span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Luis Ernesto Toledo. Diseñado bajo la estética Cyber-Glow.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
